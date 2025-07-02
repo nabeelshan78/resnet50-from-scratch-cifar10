@@ -39,7 +39,7 @@ The ResNet-50 is composed of:
   - N **identity blocks** (residual learning)
 
 The full block structure:
-<pre> Input │ ▼ [CONV] │ ▼ [CONV BLOCK] │ ▼ [ID BLOCK ×2] │ ▼ [CONV BLOCK] │ ▼ [ID BLOCK ×3] │ ▼ [CONV BLOCK] │ ▼ [ID BLOCK ×5] │ ▼ [CONV BLOCK] │ ▼ [ID BLOCK ×2] │ ▼ [AVG POOL] │ ▼ [FLATTEN] │ ▼ [DENSE] │ ▼ Output (Classes) </pre>
+<pre> Input │ [CONV] │ [CONV BLOCK] │ [ID BLOCK *2] │ [CONV BLOCK] │ [ID BLOCK *3] │ [CONV BLOCK] │ [ID BLOCK *5] │ [CONV BLOCK] │ [ID BLOCK *2] │ [AVG POOL] │ [FLATTEN] │ [DENSE] │ Output (Classes) </pre>
 
 
 
